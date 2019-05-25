@@ -11,6 +11,7 @@ object Hello {
     } yield i1 + i2 + i3
 
     println(result)
+    var sum = new Calc().sum(Seq(1, 2, 3))
 
     result = for {
       i1 <- Some(1)
